@@ -1,0 +1,76 @@
+*{
+    font-family: cursive;
+    background-color:lightgreen;
+}
+.data{
+    text-align: center;
+    font-size: xx-large;
+    color: lightcoral;
+}
+.detail{
+    text-align: center;
+    font-size: xx-large;
+    color: lightcoral;
+
+}
+    #user-details{
+    margin: 50px 150px;
+}
+#name-input,#email-input,#phone-input{
+    padding: 5px;
+    border: 15px solid lime;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+#submit{
+    padding: 13px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: aqua;
+    font-size: large;
+    color: blue;
+    cursor: pointer;
+}
+.username,.useremail,.userno, .action{
+    height: 20px;
+    width: 215px;
+    padding: 15px;
+    font-size: large;
+    text-align: center;
+    background-color: lime;
+    border-radius: 5px;
+}
+.heading{
+    display: flex;
+    gap: 5px;
+    margin-left: 150px;
+    color: white;
+}
+.details{
+    display: flex;
+    gap: 5px;
+    margin-left: 150px;    
+}
+.details ul li{
+    list-style: none;
+    height: 20px;
+    width: 215px;
+    padding: 10px 15px ;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    background-color:lightpink;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: -40px;
+    color: purple;
+}
+#remove{
+    margin-top: 22px;
+    height: 30px;
+    width: 180px;
+
+}
